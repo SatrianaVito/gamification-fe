@@ -92,13 +92,13 @@ const AuthActionButtons = () => {
         onClick={() => router.push("/login")}
         className="bg-[#EAE9FF] text-[#556FD7] font-bold rounded-2xl px-6 py-2 hover:bg-[#d9d8f2] transition cursor-pointer"
       >
-        Masuk
+        Login
       </button>
       <button
         onClick={() => router.push("/register")}
         className="bg-[#556FD7] text-white font-bold rounded-2xl px-6 py-2 hover:bg-[#445cc0] transition cursor-pointer"
       >
-        Daftar
+        Register
       </button>
     </div>
   );
